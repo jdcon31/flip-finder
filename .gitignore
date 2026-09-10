@@ -1,0 +1,21 @@
+# Environment / config
+.env
+.env.*
+!.env.example
+
+# Local data
+*.db
+*.sqlite
+*.sqlite3
+data/
+output/
+logs/
+*.log
+images/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
